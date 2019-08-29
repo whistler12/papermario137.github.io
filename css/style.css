@@ -1,13 +1,44 @@
+* {
+	font-family: Arial;
+}
 body {
 	margin: 0;
 	padding: 0;
 }
-.center {
-  text-align: center;
-  border:none;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 10px;
+}
+.navbar {
+	background: #1e61dc;
+}
+.navbar-dark .navbar-toggler {
+	border: 0;
+}
+.navbar-light .navbar-toggler {
+	border: 0;
+}
+nav .navbar-nav li a {
+	color: #fff !important;
+}
+.header {
+	margin-top: 170px;
+	color: #fff;
+	text-align: center;
+	max-height: 100vh;
 }
 .line {
   height: 1px ;
   background-color:#000000;
   border:none;
+}
+.footer {
+	height: 45px;
+	padding: 5px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #1e74ff;
+	font-size: 12px;
+	width: 100%;
 }
